@@ -4,7 +4,7 @@ usado solamente para el fondo de la etiqueta header
 header{
     background-color: rgba(12, 8, 1, 0.555);
     width: 100%; /*largo*/
-    height: 150px;/*ancho*/
+    height: 180px;/*ancho*/
 }
 
 /*selector de clase
@@ -22,11 +22,11 @@ atributo
 .cabecera{
     background-size: cover;
     background-position: left;
-    background-image: url(../img/images3.jpg);
+    background-image: url(../img/palomitas.png);
     background-image: fixed;
     background-image: left;
-    width:40%;
-    height: 150px;
+    width:25%;
+    height: 100%;
     float: left;
 }
 
@@ -39,11 +39,20 @@ atributo:
     -posicion: izquierda
 */
 .titulo{
-    font-size: 10;
+    font-size: 20px;
     color: black;
     text-align: center;
     text-transform: uppercase;
-    background-position: left;
+    background-position: right;
+    align-items: flex-end;
+
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/annuarlogo.png);
+    background-image: fixed;
+    width:30%;
+    height: 100%;
+    float: right;
 } 
 /*
 atributo
